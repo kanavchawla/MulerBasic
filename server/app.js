@@ -18,4 +18,4 @@ app.post("/single",upload.single("image"),(req,res)=>{
     console.log(req.file);
     res.send("Done");
 })
-app.listen("5500");
+app.listen("6500");
